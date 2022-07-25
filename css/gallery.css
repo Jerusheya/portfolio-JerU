@@ -1,0 +1,132 @@
+*{
+    margin:0%;
+    padding:0%;
+  }
+  #navbar {
+    position: absolute;
+  }
+  #head {
+    margin-top: 6%;
+    margin-left: 9%;
+    position: absolute;
+    font-family: "Abril Fatface", cursive;
+  }
+  .ic-color{
+    color: rgb(26, 32, 54)
+  }
+  .waviy {
+    position: relative;
+    display: flex;
+    transform: translate(-50%, -50%);
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: rgba(12, 25, 43, 0.753);
+    /* text-transform: uppercase; */
+    animation: flip 5s infinite;
+    animation-delay: calc(0.5s);
+  }
+  @keyframes flip {
+    0%,
+    80% {
+      transform: rotateY(360deg);
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin-left: 28%;
+    padding-top: 5%;
+    overflow: hidden;
+    background-color:transparent;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: rgb(26, 32, 54);
+    text-align: center;
+    padding: 18px 19px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Prompt", sans-serif;
+  }
+  
+  li a:hover {
+    color: rgb(253, 54, 54);
+    text-decoration: none;
+    transition: 0.5s;
+    text-shadow: 1px 3px 3px #ff0000;
+  }
+  
+  #you {
+    color: rgb(243, 68, 45);
+  }
+  #icons-footer{
+    position: absolute;
+    width: 50%;
+    margin-left: 170%;
+    margin-top: -5%;
+  }  
+
+.gallery_grid{
+  padding-top: 10%;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-left: 20%;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .second_div{
+    margin-top: 100px;
+  }
+
+  #icons-footer{
+    width:100%;
+    margin-left: 38%;
+    margin-top: 1.2%;
+  }
+  #footer{
+     background-color:rgb(212, 218, 241);
+  }
+
+  #icons-footer1{
+    width:13%;
+    margin-left: 150%;
+    margin-top: -5%;
+    font-size: 20px;
+   }
+
+.side-icon{
+   fill:white;
+   padding: 20px;
+   font-size: 40px;
+   margin-left: 20%;
+} 
+.side-icon:hover{
+  fill:#f56539;
+  cursor: pointer;
+}
+#contact{
+  margin-top: -2%;
+  margin-left: 43.5%;
+}
+
+#icons-footer a{
+  color: rgb(9, 22, 56);
+}
