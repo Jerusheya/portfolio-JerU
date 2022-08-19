@@ -448,7 +448,7 @@ li a:hover {
 #pb6.fill6 {
   animation: fill6 5s infinite ease alternate, colors 5s infinite alternate;
 }
-@keyframes fill1 {
+/* @keyframes fill1 {
   80% {
     width: 90%;
   }
@@ -466,9 +466,9 @@ li a:hover {
 @keyframes fill4 {
   40% {
     width: 90%;
-  }
-}
-@keyframes fill5 {
+  } */
+/* } */
+/* @keyframes fill5 {
   40% {
     width: 90%;
   }
@@ -477,7 +477,7 @@ li a:hover {
   50% {
     width: 90%;
   }
-}
+} */
 @keyframes colors {
   0% {
     background-color: #ff6161;
